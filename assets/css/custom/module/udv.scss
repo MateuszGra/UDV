@@ -1,0 +1,23 @@
+.udv-tooltip {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #f28b2d;
+    padding: 10px;
+    border-radius: 6px;
+    transform: translate(-50%, -120%);
+    left: 50%;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        bottom: -9px;
+        left: 10%;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 10px solid #f28b2d;
+    }
+}

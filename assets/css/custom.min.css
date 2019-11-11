@@ -1,1 +1,17 @@
-*{-webkit-box-sizing:border-box;box-sizing:border-box}
+*{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0;margin:0;font-family:Arial}
+body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;min-height:100vh;background:#fafdf2}
+.form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:500px;max-width:95%;padding:20px;border-radius:10px}
+.input{width:100%;border:1px solid #dbdbdb;border-radius:10px;background:white;padding:20px 16px 20px 16px;color:#475c6d;font-size:18px}
+.input::-webkit-input-placeholder{font-size:18px;line-height:23px;color:#475c6d}
+.input::-moz-placeholder{font-size:18px;line-height:23px;color:#475c6d}
+.input:-ms-input-placeholder{font-size:18px;line-height:23px;color:#475c6d}
+.input::-ms-input-placeholder{font-size:18px;line-height:23px;color:#475c6d}
+.input::placeholder{font-size:18px;line-height:23px;color:#475c6d}
+.label{display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:95%;margin:0 0 20px 0;color:#475c6d;font-size:18px}
+.label--checkbox{cursor:pointer}
+.checkbox{width:24px;height:24px;-webkit-appearance:none;background:#fff;border:1px solid #dbdbdb;border-radius:6px;margin:0 10px 0 0;-webkit-transition:.3s;transition:.3s}
+.checkbox:checked{background:#f28b2d}
+.button{border-radius:23px;font-size:20px;padding:12px 62px 12px 62px;border:1px solid #f28b2d;background:transparent;color:#f28b2d;-webkit-transition:.3s;transition:.3s;cursor:pointer;margin:20px 0 0 0}
+.button:hover{-webkit-transform:translateY(-5px);transform:translateY(-5px);-webkit-box-shadow:0 .5rem .75rem 0 rgba(77,72,71,0.25);box-shadow:0 .5rem .75rem 0 rgba(77,72,71,0.25)}
+.udv-tooltip{position:absolute;font-size:16px;font-weight:600;color:white;background:#f28b2d;padding:10px;border-radius:6px;-webkit-transform:translate(-50%,-120%);transform:translate(-50%,-120%);left:50%}
+.udv-tooltip::after{content:'';position:absolute;width:0;height:0;bottom:-9px;left:10%;border-left:7px solid transparent;border-right:7px solid transparent;border-top:10px solid #f28b2d}
