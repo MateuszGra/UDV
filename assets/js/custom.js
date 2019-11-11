@@ -43,4 +43,11 @@ udvForm.forEach(function (form) {
     e.preventDefault();
     udvalidation();
   });
+}); //delete tootlip 
+
+document.body.addEventListener('click', function () {
+  if (udvError) udvError.remove();
+});
+document.body.addEventListener('touch', function () {
+  if (udvError) udvError.remove();
 });

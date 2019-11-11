@@ -44,3 +44,12 @@ udvForm.forEach((form) => {
         udvalidation();
     })
 })
+
+//delete tootlip 
+document.body.addEventListener('click', () => {
+    if (udvError) udvError.remove();
+})
+
+document.body.addEventListener('touch', () => {
+    if (udvError) udvError.remove();
+})
