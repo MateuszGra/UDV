@@ -6,6 +6,7 @@
 HTML example.
 input type text:
 
+{::nomarkdown}
 <form id="udv-sumbit">
     <label>
         <input id="udv-input" data-req="true" data-reg="[0-9]{2}-[0-9]{3}">
@@ -20,4 +21,5 @@ input type checkbox:
         <input type="checkbox" id="udv-input" data-req="true">
     </label>
 </form>
+{:/}
 
