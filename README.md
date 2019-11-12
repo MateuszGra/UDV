@@ -4,21 +4,32 @@
 ## THIS IS STILL IN DEVELOPMENT
 demo: https://mateuszgra.github.io/UDV/.
 
-HTML example.
+HTML example:
 
 ```html
-//input type text:
-<form id="udv-sumbit">
+//input type text
+<form>
     <label>
-        <input id="udv-input" data-req="true" data-reg="[0-9]{2}-[0-9]{3}">
+        <input data-req="true" data-reg="[0-9]{2}-[0-9]{3}">
     </label>
 </form>
  
-//input type checkbox:
-<form id="udv-sumbit">
+//input type checkbox
+<form>
     <label>
-        <input type="checkbox" id="udv-input" data-req="true">
+        <input type="checkbox" data-req="true">
     </label>
 </form>
 ```
+
+To stop the actions before validation:
+
+```JavaScript
+if(udvalidation('selector-container'){ //.class #id ...
+
+    //Your code, for example, sending the form
+
+}
+```
+
 

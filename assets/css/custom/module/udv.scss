@@ -1,13 +1,15 @@
 .udv-tooltip {
     position: absolute;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: white;
     background: #f28b2d;
     padding: 10px;
     border-radius: 6px;
     transform: translate(-50%, -120%);
+    top: 0;
     left: 50%;
+    white-space: nowrap;
 
     &::after {
         content: '';

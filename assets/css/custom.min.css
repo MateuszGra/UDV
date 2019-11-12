@@ -13,5 +13,5 @@ body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:cente
 .checkbox:checked{background:#f28b2d}
 .button{border-radius:23px;font-size:20px;padding:12px 62px 12px 62px;border:1px solid #f28b2d;background:transparent;color:#f28b2d;-webkit-transition:.3s;transition:.3s;cursor:pointer;margin:20px 0 0 0}
 .button:hover{-webkit-transform:translateY(-5px);transform:translateY(-5px);-webkit-box-shadow:0 .5rem .75rem 0 rgba(77,72,71,0.25);box-shadow:0 .5rem .75rem 0 rgba(77,72,71,0.25)}
-.udv-tooltip{position:absolute;font-size:16px;font-weight:600;color:white;background:#f28b2d;padding:10px;border-radius:6px;-webkit-transform:translate(-50%,-120%);transform:translate(-50%,-120%);left:50%}
+.udv-tooltip{position:absolute;font-size:18px;font-weight:600;color:white;background:#f28b2d;padding:10px;border-radius:6px;-webkit-transform:translate(-50%,-120%);transform:translate(-50%,-120%);top:0;left:50%;white-space:nowrap}
 .udv-tooltip::after{content:'';position:absolute;width:0;height:0;bottom:-9px;left:10%;border-left:7px solid transparent;border-right:7px solid transparent;border-top:10px solid #f28b2d}
