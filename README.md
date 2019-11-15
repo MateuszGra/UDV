@@ -25,7 +25,7 @@ HTML example:
 To stop the actions before validation:
 
 ```JavaScript
-if(udvalidation('selector-container'){ //.class #id ...
+if(udvalidation('selector-container')){ //.class #id ...
 
     //Your code, for example, sending the form
 
